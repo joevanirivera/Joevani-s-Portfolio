@@ -1,0 +1,890 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700i|Open+Sans');
+
+/****************************************************** Navigator Bar Section ******************************************************/
+
+.nav-bar{
+    list-style-type:none;
+    margin:0;
+    padding: 0px;
+    overflow: hidden;
+    background-color:#505050; 
+    display: none;
+    text-align: left;
+    font-size: 17px;
+    position: sticky;
+    top: 0;
+    z-index: 5000101;
+    }
+        .nav-bar >li{float: right;}
+        
+        li {
+            display:block;
+          
+            padding:15px 28px;
+            text-decoration: none;
+        }
+        li>a:hover{
+            background-color: none;     
+        }
+        li a{ color:white;
+}
+        li.nav-button:hover {
+    background-color: #726f6f;
+    transition: .2s ease-in-out;
+}
+a{
+    text-decoration: none;
+}
+.change-nav{}
+body{
+    
+     margin: auto;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+.icon{   padding: 0px 75px 0px;
+    margin: 8px;
+    position: absolute;}
+.icon-img{
+    height: 40px;}
+.icon>a{
+    
+}
+/****************************************************** Banner Section ******************************************************/
+
+.bg-me{
+    padding: 133px 100px 145px;
+    background: url(img/me.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+.in-me p{
+        font-size:20px;
+    font-family: monospace;
+   
+    }
+.in-me >p,h3,h2{
+    color: white;
+}
+
+/* About me Section */
+
+.img-info{
+    background-color:#c1c1c100;
+      padding: 10px;
+    border-radius: 30px;
+    float: right;
+}
+.img-info h2{
+     padding: 30px 70px 20px;
+    font-family: initial;
+    font-size: 40px;
+    color: #111;
+    line-height: 12px;
+}
+.img-info p{
+     padding: 0px 70px 20px;
+    font-family: monospace;
+    font-size: 16px;
+    color: #111;
+    line-height: 24px;
+}
+
+/****************************************************** Header Line ******************************************************/
+
+.hd-about{
+    
+    height: 1px;
+    background: #0a0a0a;
+    border-bottom: #FFF solid 1px;
+    position: relative;
+        margin:94px 50px -42px;
+}
+.hd-about>h3{    background: #fafafa;
+    position: absolute;
+    top: -32px;
+    left: 50%;
+    margin-left: -150px;
+    width: 300px;
+    text-align: center;
+    display: block;
+    color: #666666;
+    font-size: 14px;
+    font-size: 1.4rem;
+    font-weight: normal;
+    letter-spacing: 1px;
+    padding: 0px;}
+
+
+
+.hd-skills{
+    
+    height: 1px;
+    background: #0a0a0a;
+    border-bottom: #FFF solid 1px;
+    position: relative;
+        margin:809px 50px -42px;
+}
+.hd-skills >h3{   
+    background: #fafafa;
+    position: absolute;
+    top: -32px;
+    left: 50%;
+    margin-left: -150px;
+    width: 300px;
+    text-align: center;
+    display: block;
+    color: #666666;
+    font-size: 14px;
+    font-size: 1.4rem;
+    font-weight: normal;
+    letter-spacing: 1px;
+    padding: 0px;}
+
+.hd-Intern{
+    
+    height: 1px;
+    background: #0a0a0a;
+    border-bottom: #FFF solid 1px;
+    position: relative;
+        margin:145px 50px -42px;
+}
+.hd-Intern >h3{   
+    background: #fafafa;
+    position: absolute;
+    top: -32px;
+    left: 50%;
+    margin-left: -150px;
+    width: 300px;
+    text-align: center;
+    display: block;
+    color: #666666;
+    font-size: 1.4rem;
+    font-weight: normal;
+    letter-spacing: 1px;
+    padding: 0px;}
+
+.hd-Projects{
+    
+    height: 1px;
+    background: #0a0a0a;
+    border-bottom: #FFF solid 1px;
+    position: relative;
+        margin:145px 50px -42px;
+}
+.hd-Projects> h3{   
+    background: #fafafa;
+    position: absolute;
+    top: -32px;
+    left: 50%;
+    margin-left: -150px;
+    width: 300px;
+    text-align: center;
+    display: block;
+    color: #666666;
+    font-size: 1.4rem;
+    font-weight: normal;
+    letter-spacing: 1px;
+    padding: 0px;}
+.hd-Contact{
+    
+    height: 1px;
+    background: #0a0a0a;
+    border-bottom: #FFF solid 1px;
+    position: relative;
+        margin:1020px 50px -42px;
+}
+.hd-Contact> h3{   
+    background: #fafafa;
+    position: absolute;
+    top: -32px;
+    left: 50%;
+    margin-left: -150px;
+    width: 300px;
+    text-align: center;
+    display: block;
+    color: #666666;
+    font-size: 1.4rem;
+    font-weight: normal;
+    letter-spacing: 1px;
+    padding: 0px;}
+
+
+
+/****************************************************** Skills Section ******************************************************/
+
+.skillset-section {
+    width: 1000px;
+    height: 575px;
+    margin: 108px 198px;
+    position: relative;
+    top: 34px;
+    padding: 45px 85px 55px;
+
+}
+
+.skillset-section .skillset {
+    width: 405px;
+    display: table;
+    height: 90px;
+    text-align: center;
+    box-shadow: 1px 1px 6px #333;
+    border-radius: 3px;
+    position: relative;
+    margin: 0 0 30px 0;
+}
+
+.skillset-section .skillset > p {
+    display: table-cell;
+    padding: 31px 53px;
+    font-size: 21px;
+}
+
+.skillset-section .skillset > h1 {
+    display: table-cell;
+    color: #ccc;
+    font-size: 28px;
+    padding: 14px 45px;
+    text-align: right;
+    width: 100%;
+}
+
+.skillset span {
+    position: absolute;
+    width: 283.5px;
+    height: 6px;
+    bottom: 0;
+    left: 0;
+}
+
+.skillset-section .skillset:nth-child(n) {
+    display: inline-block;
+}
+
+.skillset-section .skillset:nth-child(even) {
+    float:right;
+}
+
+.html-css >span{
+      width: 65%;
+    background:  #505050;
+}
+.csharp > span{
+      width: 60%;
+    background: #505050;
+}
+.mysql >span{  width: 60%;
+    background:#505050;}
+.php >span{ width: 50%;
+    background:#505050;}
+.javascript > span {
+    width: 50%;
+    background:   #505050;
+}
+
+.cplus > span {
+    background: #505050;
+    width: 60%;
+}
+
+.wordpress > span {
+   background: #505050;
+    width: 50%;
+}
+
+.java > span {
+    width: 50%;
+    background: #505050;
+}
+
+.trouble > span {
+   background: #505050;
+    width: 80%;
+}
+
+.vb > span {
+    width: 70%;
+    background: #505050;
+}
+
+.html-css > span {
+    width: 65%;
+}
+
+
+.in-wrapper >li:After
+{content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #4f4b43;
+    left: 75px;
+    border-radius: 10px;
+    top: 15px;}
+.in-wrapper > li {
+    font-size: 15px;
+    line-height: 40px;
+    position: relative;
+    padding: 0px 0px 0px 110px;
+        color: black;
+}
+.vb-img{    position: absolute;
+    height: 50px;
+    margin: -68px 15px;}
+.comtb-img{position: absolute;
+       height: 73px;
+    margin: -82px 22px;}
+.htmlcss-img{    position: absolute;
+    height: 50px;
+    margin: -70px -1px;}
+.js-img{position: absolute;
+    height: 50px;
+    margin: -70px 38px;}
+.java-img{ position: absolute;
+    height: 71px;
+    margin: -88px 6px;}
+.csharp-img{    position: absolute;
+    height: 50px;
+    margin: -70px 38px;}
+.mysql-img{position: absolute;
+        height: 68px;
+    margin: -88px -11px;}
+.wordpress-img{    position: absolute;
+    height: 88px;
+    margin: -89px 16px;}
+.cplus-img{position: absolute;
+    height: 70px;
+    margin: -81px 15px;}
+.php-img{    position: absolute;
+    height: 38px;
+    margin: -63px 14px;}
+
+/****************************************************** Projects Section ******************************************************/
+
+.capstone-1 {
+ width: 361px;
+    height: 370px;
+    position:absolute;
+    
+}
+.capstone-1>h5{
+    margin: 10px 34px;
+}
+.capstone-1>p{
+    margin: 0px 32px;
+}
+.caps-img{
+    width: 322px;
+    padding: 17px 18px 10px;
+}
+.sysdes{
+ width: 330px;
+    margin: 0px 388px 23px;
+     height: 370px;
+    position: absolute;
+}
+.sysdes>h5{
+        margin: -2px 62px 35px;
+}
+.sys-img{width: 214px;
+    height: 219px;
+    padding: 16px 59px;}
+.sysdes>p{margin: -23px 48px;}
+
+.softeng{
+    width: 361px;
+  height: 370px;
+    padding: 1px 1px 0px;
+    margin: 0px 743px 23px;
+    position:absolute;
+}
+.soft-img{
+       height: 218px;
+    width: 326px;
+    margin: 15px;
+    
+}
+.softeng>h5{margin: 1px 117px 10px;}
+.softeng>p{margin:  28px 43px;}
+
+.ojt {
+           margin: 400px 0px 10px;
+    width: 361px;
+    height: 355px;
+    position:absolute;
+    
+}
+.ojt>h5{
+    margin: 13px 140px;
+}
+.ojt-img{
+   width: 324px;
+    height: 196px;
+    padding: 29px 17px 10px;
+}
+.ojt>p{    margin: 27px 50px;}
+
+.wap1 {
+            margin:  400px 388px 10px;
+    width: 330px;
+    height: 355px;
+    position:absolute;
+    
+}
+.wap1>h5{
+    margin: 12px 118px;
+}
+.wap1-img{
+   width: 214px;
+    height: 192px;
+    padding: 31px 63px 10px;
+}
+.wap1>p{    margin: 29px 45px;}
+.wap2 {
+        margin: 400px 744px 10px;
+ width: 361px;
+    height: 355px;
+    position:absolute;
+    
+}
+.wap2>h5{
+    margin: 13px 130px;
+}
+.wap2-img{
+ width: 324px;
+    height: 196px;
+    padding: 29px 17px 10px;
+}
+.wap2>p{    margin: 25px 43px;}
+/****************************************************** Contact Section ******************************************************/
+
+.ct-wrapper{
+        box-shadow: 1px 1px 6px #333;
+    height: 526px;
+   
+}
+.ct-font>h5{font-size: 40px;
+        margin: 33px 453px 26px;
+    font-weight: 600;
+    letter-spacing: -.01em;
+}
+
+.ct-font>p{font-size: 20px;
+        margin: 10px 195px 10px;}
+
+.name-area{
+    margin: 57px 98px 10px;
+      height: 45px;
+    width: 335px;
+    position: absolute;
+}
+.email-area{
+    margin: 146px 98px 10px;
+      height: 45px;
+    width: 335px;
+    position: absolute;
+}
+.ms-area{
+       margin: 55px 504px;
+    position: absolute;
+    width: 507px;
+    height: 215px;
+    padding: 17px;
+     color: #444242;
+    font-size: 15px;
+    resize: unset;
+    font-style: italic;
+}
+.sendbtn{
+    position: absolute;
+    margin: 317px 440px 10px;
+    padding: 15px 62px;
+     color: #fff;
+    background: #484848;
+    border: none;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    outline: 0;
+    cursor: pointer
+}
+.name-font{
+    position: absolute;
+        margin: 20px 99px 10px;
+}
+.email-font{
+    position: absolute;
+        margin: 115px 99px 10px;
+}
+.ms-font{
+    position: absolute;
+    margin: 20px 506px;
+}
+.message-area>p{ font-weight: 600;
+    letter-spacing: -.01em;}
+
+
+
+
+/****************************************************** Captone Section ******************************************************/
+
+.Capstone-hd{
+    
+    height: 1px;
+    background: #0a0a0a;
+    border-bottom: #FFF solid 1px;
+    position: relative;
+        margin:68px 50px -42px;
+}
+.Capstone-hd>h3{    background: #fafafa;
+    position: absolute;
+    top: -32px;
+    left: 50%;
+    margin-left: -150px;
+    width: 300px;
+    text-align: center;
+    display: block;
+    color: #666666;
+    font-size: 1.4rem;
+    font-weight: normal;
+    letter-spacing: 1px;
+    padding: 0px;}
+.capstone-img{    
+    width: 322px;
+    margin:  38px 15px;
+    padding: 17px 18px 10px;}
+.title-p1{    
+    margin: -28px 33px;
+    font-weight: 600;}
+.title-p2{
+    margin: 30px 33px;
+    font-weight: 600;}
+.overview-caps{    margin: 19px 29px;}
+
+.picture-caps{
+    
+    height: 1px;
+    background: #0a0a0a;
+    border-bottom: #FFF solid 1px;
+    position: relative;
+        margin:582px 50px -42px;
+}
+.picture-caps>h3{    background: #fafafa;
+    position: absolute;
+    top: -32px;
+    left: 50%;
+    margin-left: -150px;
+    width: 300px;
+    text-align: center;
+    display: block;
+    color: #666666;
+    font-size: 1.4rem;
+    font-weight: normal;
+    letter-spacing: 1px;
+    padding: 0px;}
+.picture-caps>img{ 
+    width: 322px;  
+    padding: 17px 6px 10px;
+       margin: 53px 36px -49px;}
+
+/****************************************************** Sysdes Section ******************************************************/
+
+.Sysdes-hd{
+    
+    height: 1px;
+    background: #0a0a0a;
+    border-bottom: #FFF solid 1px;
+    position: relative;
+        margin:68px 50px -42px;
+}
+.Sysdes-hd>h3{    background: #fafafa;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    margin-left: -150px;
+    width: 300px;
+    text-align: center;
+    display: block;
+    color: #666666;
+    font-size: 1.4rem;
+    font-weight: normal;
+    letter-spacing: 1px;
+    padding: 0px;}
+.sysdes-img{    
+        width: 242px;
+    height: 256px;
+    margin:  38px 49px;
+    padding: 17px 18px 10px;}
+.title-s1{    
+    margin: -28px 95px;
+    font-weight: 600;}
+.title-s2{
+    margin: 30px 84px;
+    font-weight: 600;}
+.overview-sysdes{    margin: 19px 29px;}
+
+.picture-sys{
+    
+    height: 1px;
+    background: #0a0a0a;
+    border-bottom: #FFF solid 1px;
+    position: relative;
+        margin:719px 50px -42px;
+}
+.picture-sys>h3{    background: #fafafa;
+    position: absolute;
+    top: -32px;
+    left: 50%;
+    margin-left: -150px;
+    width: 300px;
+    text-align: center;
+    display: block;
+    color: #666666;
+    font-size: 1.4rem;
+    font-weight: normal;
+    letter-spacing: 1px;
+    padding: 0px;}
+.picture-sys>img{ 
+    width: 322px;  
+    padding: 17px 6px 10px;
+       margin: 53px 36px -49px;}
+.img-11{    height: 172px;
+    width: 230px;
+    margin: 27px 83px -46px;}
+
+/****************************************************** Softeng Section ******************************************************/
+
+.Softeng-hd{
+    
+    height: 1px;
+    background: #0a0a0a;
+    border-bottom: #FFF solid 1px;
+    position: relative;
+        margin:68px 50px -42px;
+}
+.Softeng-hd>h3{    background: #fafafa;
+    position: absolute;
+    top: -32px;
+    left: 50%;
+    margin-left: -150px;
+    width: 300px;
+    text-align: center;
+    display: block;
+    color: #666666;
+    font-size: 1.4rem;
+    font-weight: normal;
+    letter-spacing: 1px;
+    padding: 0px;}
+.softeng-img{    
+    width: 322px;
+    margin:  38px 15px;
+    padding: 17px 18px 10px;}
+.title-c{    
+    margin: -28px 33px;
+    font-weight: 600;}
+.overview-soft{    margin: 60px 34px;}
+
+.picture-soft{
+    
+    height: 1px;
+    background: #0a0a0a;
+    border-bottom: #FFF solid 1px;
+    position: relative;
+        margin:490px 50px -42px;
+}
+.picture-soft>h3{    background: #fafafa;
+    position: absolute;
+    top: -32px;
+    left: 50%;
+    margin-left: -150px;
+    width: 300px;
+    text-align: center;
+    display: block;
+    color: #666666;
+    font-size: 1.4rem;
+    font-weight: normal;
+    letter-spacing: 1px;
+    padding: 0px;}
+.picture-soft>img{ 
+    width: 322px;  
+    padding: 17px 6px 10px;
+       margin: 53px 36px -49px;}
+
+
+/****************************************************** Internship Section ******************************************************/
+
+.picture-intern{
+    
+    height: 1px;
+    background: #0a0a0a;
+    border-bottom: #FFF solid 1px;
+    position: relative;
+        margin:68px 50px -42px;
+}
+.picture-intern>h3{    background: #fafafa;
+    position: absolute;
+    top: -32px;
+    left: 50%;
+    margin-left: -150px;
+    width: 300px;
+    text-align: center;
+    display: block;
+    color: #666666;
+    font-size: 1.4rem;
+    font-weight: normal;
+    letter-spacing: 1px;
+    padding: 0px;}
+.picture-intern>img{ 
+    width: 322px;  
+    padding: 17px 6px 10px;
+       margin: 53px 36px -49px;}
+.ojt-4{    height: 239px;
+    width: 243px;
+    position: relative;
+    margin: 0px 74px -45px;}
+.computer-png{position: absolute;
+       height: 209px;
+    margin: -143px 623px;}
+.cctv-png{position: absolute;
+    height: 150;
+    margin: -389px 599px;}
+/****************************************************** Footer Section ******************************************************/
+
+.footer{    background-color:#505050;
+    color: white;
+    text-align: center;
+    height: 180px;
+    font-weight: 600;
+    letter-spacing: -.01em;}
+.facebook-img
+{  position: absolute;
+    height: 70px;
+    margin: -7px -115px;}
+.google-img{
+    position: absolute;
+    height: 70px;   
+    padding: 0px 66px;
+    margin: -37px -94px;
+}
+.linkedin-img{
+    position: absolute;
+    height: 70; 
+    margin: -67px 53px;}
+.a-font{
+        color: white;
+}
+
+
+
+/****************************************************** Responsive Section ******************************************************/
+
+::-webkit-scrollbar{
+    width:10px;
+    background-color:#4f4b43;
+}
+::-webkit-scrollbar{
+    width:10px;
+    background-color:#4f4b43;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #ffffff;
+}
+@media only screen and (min-width: 414px){
+    .img-me{
+        padding: 48px 54px 0px;
+         width: 35%;
+        float: left; 
+}
+}
+
+@media only screen and (min-width: 768px){
+    .nav-bar{
+        display:block;
+    }
+    .in-me{
+        padding: 0px;
+        margin: 42px -58px 92px;
+    }
+    .wrapper{
+   
+        margin: 50px auto;
+}  
+     .in-wrapper{
+        margin: 111px auto;
+    box-shadow: 1px 1px 6px #333;
+    padding: 23px 54px 35px;
+}  
+     .skillset-section{
+        margin: 95px auto;
+         
+    }
+    .pj-wrapper{
+        margin: 160px auto;
+    }
+    .ct-wrapper{
+         margin: 160px auto;
+    }
+    .capstone-1{ 
+        box-shadow: 1px 1px 6px #333;
+    }
+    .sysdes{
+         box-shadow: 1px 1px 6px #333;
+    }
+    .softeng{
+          box-shadow: 1px 1px 6px #333;
+    }
+    .wap2{
+        box-shadow: 1px 1px 6px #333;
+    }
+    .wap1{
+          box-shadow: 1px 1px 6px #333;
+    }
+    .ojt{
+         box-shadow: 1px 1px 6px #333;
+    }
+  
+}
+@media only screen and (min-width: 1000px){
+   .wrapper{
+    width:1000px;
+}
+     .in-wrapper{
+    width:769px;
+}
+    .pj-wrapper{
+        width: 1105px;
+    }
+    .ct-wrapper{
+        width: 1083px;
+    }
+   
+    .nav-bar{
+        display:block;
+    }
+    .in-me {
+    padding: 30px 50px 30px;
+    line-height: 20px;   
+}
+    .in-me h2, h3{
+        font-size: 50px;
+        opacity: 1px;
+    }
+    .in-me> h3{
+        font-size: 30px;
+    }
+    .img-info{
+    width: 50%; 
+} 
+    .img-me{
+     padding: 48px 54px 0px;
+       width: 35%; 
+}
+    .skillset-section{
+        margin: 95px auto;
+        
+    }
+   
+}   
